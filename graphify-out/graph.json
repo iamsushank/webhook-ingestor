@@ -1883,9 +1883,9 @@
       "source_file": "config.go",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_go",
-      "target": "webhook_ingestor_config",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config"
     },
     {
       "relation": "contains",
@@ -1893,9 +1893,9 @@
       "source_file": "config.go",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_go",
-      "target": "webhook_ingestor_config_loadconfig",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_loadconfig"
     },
     {
       "relation": "contains",
@@ -1903,9 +1903,9 @@
       "source_file": "config.go",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_go",
-      "target": "webhook_ingestor_config_getenv",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenv"
     },
     {
       "relation": "contains",
@@ -1913,9 +1913,9 @@
       "source_file": "config.go",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_go",
-      "target": "webhook_ingestor_config_getenvint",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenvint"
     },
     {
       "relation": "contains",
@@ -1923,9 +1923,9 @@
       "source_file": "config.go",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_go",
-      "target": "webhook_ingestor_config_getenvfloat",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenvfloat"
     },
     {
       "relation": "contains",
@@ -1933,9 +1933,9 @@
       "source_file": "config.go",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_go",
-      "target": "webhook_ingestor_config_getenvduration",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenvduration"
     },
     {
       "relation": "calls",
@@ -1944,9 +1944,9 @@
       "source_file": "config.go",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_loadconfig",
-      "target": "webhook_ingestor_config_getenv",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenv"
     },
     {
       "relation": "calls",
@@ -1955,9 +1955,9 @@
       "source_file": "config.go",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_loadconfig",
-      "target": "webhook_ingestor_config_getenvfloat",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenvfloat"
     },
     {
       "relation": "calls",
@@ -1966,9 +1966,9 @@
       "source_file": "config.go",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_loadconfig",
-      "target": "webhook_ingestor_config_getenvint",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenvint"
     },
     {
       "relation": "calls",
@@ -1977,9 +1977,9 @@
       "source_file": "config.go",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_loadconfig",
-      "target": "webhook_ingestor_config_getenvduration",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenvduration"
     },
     {
       "relation": "calls",
@@ -1999,9 +1999,9 @@
       "source_file": "config.go",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_getenvint",
-      "target": "webhook_ingestor_config_getenv",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenv"
     },
     {
       "relation": "calls",
@@ -2010,9 +2010,9 @@
       "source_file": "config.go",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_getenvfloat",
-      "target": "webhook_ingestor_config_getenv",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenv"
     },
     {
       "relation": "calls",
@@ -2021,9 +2021,9 @@
       "source_file": "config.go",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_config_getenvduration",
-      "target": "webhook_ingestor_config_getenv",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_config_getenv"
     },
     {
       "relation": "calls",
@@ -2042,9 +2042,9 @@
       "source_file": "init.go",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "init_go",
-      "target": "webhook_ingestor_app",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app"
     },
     {
       "relation": "contains",
@@ -2052,9 +2052,9 @@
       "source_file": "init.go",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "init_go",
-      "target": "webhook_ingestor_init_newapp",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_init_newapp"
     },
     {
       "relation": "contains",
@@ -2062,9 +2062,9 @@
       "source_file": "init.go",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "init_go",
-      "target": "webhook_ingestor_init_connectwithretry",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_init_connectwithretry"
     },
     {
       "relation": "contains",
@@ -2072,9 +2072,9 @@
       "source_file": "init.go",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "init_go",
-      "target": "webhook_ingestor_init_buildllm",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_init_buildllm"
     },
     {
       "relation": "contains",
@@ -2082,9 +2082,9 @@
       "source_file": "init.go",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "init_go",
-      "target": "webhook_ingestor_init_newlogger",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_init_newlogger"
     },
     {
       "relation": "method",
@@ -2092,9 +2092,9 @@
       "source_file": "init.go",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app",
-      "target": "webhook_ingestor_app_close",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_close"
     },
     {
       "relation": "method",
@@ -2102,9 +2102,9 @@
       "source_file": "init.go",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app",
-      "target": "webhook_ingestor_app_run",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_run"
     },
     {
       "relation": "method",
@@ -2112,9 +2112,9 @@
       "source_file": "init.go",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app",
-      "target": "webhook_ingestor_app_runserver",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_runserver"
     },
     {
       "relation": "method",
@@ -2122,9 +2122,9 @@
       "source_file": "init.go",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app",
-      "target": "webhook_ingestor_app_runall",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_runall"
     },
     {
       "relation": "calls",
@@ -2133,9 +2133,9 @@
       "source_file": "init.go",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_init_newapp",
-      "target": "webhook_ingestor_init_connectwithretry",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_init_connectwithretry"
     },
     {
       "relation": "calls",
@@ -2144,9 +2144,9 @@
       "source_file": "init.go",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_init_newapp",
-      "target": "webhook_ingestor_app_close",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_close"
     },
     {
       "relation": "calls",
@@ -2155,9 +2155,9 @@
       "source_file": "init.go",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_init_newapp",
-      "target": "webhook_ingestor_init_buildllm",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_init_buildllm"
     },
     {
       "relation": "calls",
@@ -2199,9 +2199,9 @@
       "source_file": "init.go",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app_run",
-      "target": "webhook_ingestor_app_runserver",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_runserver"
     },
     {
       "relation": "calls",
@@ -2210,9 +2210,9 @@
       "source_file": "init.go",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app_runall",
-      "target": "webhook_ingestor_app_run",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_run"
     },
     {
       "relation": "calls",
@@ -2221,9 +2221,9 @@
       "source_file": "init.go",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "webhook_ingestor_app_runall",
-      "target": "webhook_ingestor_app_runserver",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_app_runserver"
     },
     {
       "relation": "calls",
@@ -2275,9 +2275,9 @@
       "source_file": "main.go",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "main_go",
-      "target": "webhook_ingestor_main_main",
-      "confidence_score": 1.0
+      "target": "webhook_ingestor_main_main"
     },
     {
       "relation": "contains",
@@ -2285,9 +2285,9 @@
       "source_file": "internal/llm/llm.go",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_llm_go",
-      "target": "llm_response",
-      "confidence_score": 1.0
+      "target": "llm_response"
     },
     {
       "relation": "contains",
@@ -2295,9 +2295,9 @@
       "source_file": "internal/llm/llm.go",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_llm_go",
-      "target": "llm_result",
-      "confidence_score": 1.0
+      "target": "llm_result"
     },
     {
       "relation": "contains",
@@ -2305,9 +2305,9 @@
       "source_file": "internal/llm/llm.go",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_llm_go",
-      "target": "llm_client",
-      "confidence_score": 1.0
+      "target": "llm_client"
     },
     {
       "relation": "contains",
@@ -2315,9 +2315,9 @@
       "source_file": "internal/llm/llm.go",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_llm_go",
-      "target": "llm_apierror",
-      "confidence_score": 1.0
+      "target": "llm_apierror"
     },
     {
       "relation": "contains",
@@ -2325,9 +2325,9 @@
       "source_file": "internal/llm/llm.go",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_llm_go",
-      "target": "llm_llm_retryable",
-      "confidence_score": 1.0
+      "target": "llm_llm_retryable"
     },
     {
       "relation": "method",
@@ -2335,9 +2335,9 @@
       "source_file": "internal/llm/llm.go",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_apierror",
-      "target": "llm_apierror_error",
-      "confidence_score": 1.0
+      "target": "llm_apierror_error"
     },
     {
       "relation": "calls",
@@ -2356,9 +2356,9 @@
       "source_file": "internal/llm/openai_test.go",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_test_go",
-      "target": "llm_openai_test_testretryablestatus",
-      "confidence_score": 1.0
+      "target": "llm_openai_test_testretryablestatus"
     },
     {
       "relation": "contains",
@@ -2366,9 +2366,9 @@
       "source_file": "internal/llm/openai_test.go",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_test_go",
-      "target": "llm_openai_test_testopenaistrictschema_dropsrangekeywordswithoutmutating",
-      "confidence_score": 1.0
+      "target": "llm_openai_test_testopenaistrictschema_dropsrangekeywordswithoutmutating"
     },
     {
       "relation": "calls",
@@ -2409,9 +2409,9 @@
       "source_file": "internal/llm/ollama_test.go",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_ollama_test_go",
-      "target": "llm_ollama_test_testollama_normalizeparsesresponse",
-      "confidence_score": 1.0
+      "target": "llm_ollama_test_testollama_normalizeparsesresponse"
     },
     {
       "relation": "calls",
@@ -2430,9 +2430,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_openai",
-      "confidence_score": 1.0
+      "target": "llm_openai"
     },
     {
       "relation": "contains",
@@ -2440,9 +2440,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_openai_newopenai",
-      "confidence_score": 1.0
+      "target": "llm_openai_newopenai"
     },
     {
       "relation": "contains",
@@ -2450,9 +2450,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_openai_openaistrictschema",
-      "confidence_score": 1.0
+      "target": "llm_openai_openaistrictschema"
     },
     {
       "relation": "contains",
@@ -2460,9 +2460,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_openai_stripkeys",
-      "confidence_score": 1.0
+      "target": "llm_openai_stripkeys"
     },
     {
       "relation": "contains",
@@ -2470,9 +2470,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_chatrequest",
-      "confidence_score": 1.0
+      "target": "llm_chatrequest"
     },
     {
       "relation": "contains",
@@ -2480,9 +2480,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_chatmessage",
-      "confidence_score": 1.0
+      "target": "llm_chatmessage"
     },
     {
       "relation": "contains",
@@ -2490,9 +2490,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_responseformat",
-      "confidence_score": 1.0
+      "target": "llm_responseformat"
     },
     {
       "relation": "contains",
@@ -2500,9 +2500,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_jsonschema",
-      "confidence_score": 1.0
+      "target": "llm_jsonschema"
     },
     {
       "relation": "contains",
@@ -2510,9 +2510,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_openai_retryablestatus",
-      "confidence_score": 1.0
+      "target": "llm_openai_retryablestatus"
     },
     {
       "relation": "contains",
@@ -2520,9 +2520,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L186",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_openai_go",
-      "target": "llm_openai_truncate",
-      "confidence_score": 1.0
+      "target": "llm_openai_truncate"
     },
     {
       "relation": "method",
@@ -2530,9 +2530,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai",
-      "target": "llm_openai_normalize",
-      "confidence_score": 1.0
+      "target": "llm_openai_normalize"
     },
     {
       "relation": "method",
@@ -2540,9 +2540,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai",
-      "target": "llm_openai_responseformat",
-      "confidence_score": 1.0
+      "target": "llm_openai_responseformat"
     },
     {
       "relation": "calls",
@@ -2551,9 +2551,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai_normalize",
-      "target": "llm_responseformat",
-      "confidence_score": 1.0
+      "target": "llm_responseformat"
     },
     {
       "relation": "calls",
@@ -2562,9 +2562,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai_normalize",
-      "target": "llm_openai_retryablestatus",
-      "confidence_score": 1.0
+      "target": "llm_openai_retryablestatus"
     },
     {
       "relation": "calls",
@@ -2573,9 +2573,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai_normalize",
-      "target": "llm_openai_truncate",
-      "confidence_score": 1.0
+      "target": "llm_openai_truncate"
     },
     {
       "relation": "calls",
@@ -2595,9 +2595,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai_responseformat",
-      "target": "llm_openai_openaistrictschema",
-      "confidence_score": 1.0
+      "target": "llm_openai_openaistrictschema"
     },
     {
       "relation": "calls",
@@ -2639,9 +2639,9 @@
       "source_file": "internal/llm/openai.go",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_openai_openaistrictschema",
-      "target": "llm_openai_stripkeys",
-      "confidence_score": 1.0
+      "target": "llm_openai_stripkeys"
     },
     {
       "relation": "calls",
@@ -2660,9 +2660,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock",
-      "confidence_score": 1.0
+      "target": "llm_mock"
     },
     {
       "relation": "contains",
@@ -2670,9 +2670,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_newmock",
-      "confidence_score": 1.0
+      "target": "llm_mock_newmock"
     },
     {
       "relation": "contains",
@@ -2680,9 +2680,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_looksinvoice",
-      "confidence_score": 1.0
+      "target": "llm_mock_looksinvoice"
     },
     {
       "relation": "contains",
@@ -2690,9 +2690,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_looksshipment",
-      "confidence_score": 1.0
+      "target": "llm_mock_looksshipment"
     },
     {
       "relation": "contains",
@@ -2700,9 +2700,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_shipmentstate",
-      "confidence_score": 1.0
+      "target": "llm_mock_shipmentstate"
     },
     {
       "relation": "contains",
@@ -2710,9 +2710,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_invoicestate",
-      "confidence_score": 1.0
+      "target": "llm_mock_invoicestate"
     },
     {
       "relation": "contains",
@@ -2720,9 +2720,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_shipmentkey",
-      "confidence_score": 1.0
+      "target": "llm_mock_shipmentkey"
     },
     {
       "relation": "contains",
@@ -2730,9 +2730,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_firststring",
-      "confidence_score": 1.0
+      "target": "llm_mock_firststring"
     },
     {
       "relation": "contains",
@@ -2740,9 +2740,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_firsttimestring",
-      "confidence_score": 1.0
+      "target": "llm_mock_firsttimestring"
     },
     {
       "relation": "contains",
@@ -2750,9 +2750,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_go",
-      "target": "llm_mock_txkind",
-      "confidence_score": 1.0
+      "target": "llm_mock_txkind"
     },
     {
       "relation": "method",
@@ -2760,9 +2760,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock",
-      "target": "llm_mock_normalize",
-      "confidence_score": 1.0
+      "target": "llm_mock_normalize"
     },
     {
       "relation": "calls",
@@ -2782,9 +2782,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_looksinvoice",
-      "confidence_score": 1.0
+      "target": "llm_mock_looksinvoice"
     },
     {
       "relation": "calls",
@@ -2793,9 +2793,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_invoicestate",
-      "confidence_score": 1.0
+      "target": "llm_mock_invoicestate"
     },
     {
       "relation": "calls",
@@ -2804,9 +2804,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_firststring",
-      "confidence_score": 1.0
+      "target": "llm_mock_firststring"
     },
     {
       "relation": "calls",
@@ -2815,9 +2815,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_txkind",
-      "confidence_score": 1.0
+      "target": "llm_mock_txkind"
     },
     {
       "relation": "calls",
@@ -2826,9 +2826,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_firsttimestring",
-      "confidence_score": 1.0
+      "target": "llm_mock_firsttimestring"
     },
     {
       "relation": "calls",
@@ -2837,9 +2837,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_looksshipment",
-      "confidence_score": 1.0
+      "target": "llm_mock_looksshipment"
     },
     {
       "relation": "calls",
@@ -2848,9 +2848,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_shipmentstate",
-      "confidence_score": 1.0
+      "target": "llm_mock_shipmentstate"
     },
     {
       "relation": "calls",
@@ -2859,9 +2859,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_normalize",
-      "target": "llm_mock_shipmentkey",
-      "confidence_score": 1.0
+      "target": "llm_mock_shipmentkey"
     },
     {
       "relation": "calls",
@@ -2870,9 +2870,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_shipmentkey",
-      "target": "llm_mock_firststring",
-      "confidence_score": 1.0
+      "target": "llm_mock_firststring"
     },
     {
       "relation": "calls",
@@ -2881,9 +2881,9 @@
       "source_file": "internal/llm/mock.go",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_mock_firsttimestring",
-      "target": "llm_mock_firststring",
-      "confidence_score": 1.0
+      "target": "llm_mock_firststring"
     },
     {
       "relation": "contains",
@@ -2891,9 +2891,9 @@
       "source_file": "internal/llm/mock_test.go",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_mock_test_go",
-      "target": "llm_mock_test_testmockclassifiessamplepayloads",
-      "confidence_score": 1.0
+      "target": "llm_mock_test_testmockclassifiessamplepayloads"
     },
     {
       "relation": "calls",
@@ -2912,9 +2912,9 @@
       "source_file": "internal/llm/ollama.go",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_ollama_go",
-      "target": "llm_ollama",
-      "confidence_score": 1.0
+      "target": "llm_ollama"
     },
     {
       "relation": "contains",
@@ -2922,9 +2922,9 @@
       "source_file": "internal/llm/ollama.go",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_ollama_go",
-      "target": "llm_ollama_newollama",
-      "confidence_score": 1.0
+      "target": "llm_ollama_newollama"
     },
     {
       "relation": "contains",
@@ -2932,9 +2932,9 @@
       "source_file": "internal/llm/ollama.go",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_ollama_go",
-      "target": "llm_ollamarequest",
-      "confidence_score": 1.0
+      "target": "llm_ollamarequest"
     },
     {
       "relation": "contains",
@@ -2942,9 +2942,9 @@
       "source_file": "internal/llm/ollama.go",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_ollama_go",
-      "target": "llm_ollamaoptions",
-      "confidence_score": 1.0
+      "target": "llm_ollamaoptions"
     },
     {
       "relation": "contains",
@@ -2952,9 +2952,9 @@
       "source_file": "internal/llm/ollama.go",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_ollama_go",
-      "target": "llm_ollamaresponse",
-      "confidence_score": 1.0
+      "target": "llm_ollamaresponse"
     },
     {
       "relation": "method",
@@ -2962,9 +2962,9 @@
       "source_file": "internal/llm/ollama.go",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "llm_ollama",
-      "target": "llm_ollama_normalize",
-      "confidence_score": 1.0
+      "target": "llm_ollama_normalize"
     },
     {
       "relation": "calls",
@@ -2994,9 +2994,9 @@
       "source_file": "internal/llm/spec/spec.go",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_spec_spec_go",
-      "target": "spec_schema",
-      "confidence_score": 1.0
+      "target": "spec_schema"
     },
     {
       "relation": "contains",
@@ -3004,9 +3004,9 @@
       "source_file": "internal/llm/spec/spec.go",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_spec_spec_go",
-      "target": "spec_spec_loadschema",
-      "confidence_score": 1.0
+      "target": "spec_spec_loadschema"
     },
     {
       "relation": "contains",
@@ -3014,9 +3014,9 @@
       "source_file": "internal/llm/spec/spec.go",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_spec_spec_go",
-      "target": "spec_spec_systemprompt",
-      "confidence_score": 1.0
+      "target": "spec_spec_systemprompt"
     },
     {
       "relation": "contains",
@@ -3024,9 +3024,9 @@
       "source_file": "internal/llm/spec/spec.go",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_spec_spec_go",
-      "target": "spec_spec_schemaname",
-      "confidence_score": 1.0
+      "target": "spec_spec_schemaname"
     },
     {
       "relation": "contains",
@@ -3034,9 +3034,9 @@
       "source_file": "internal/llm/spec/spec.go",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_spec_spec_go",
-      "target": "spec_spec_schemastrict",
-      "confidence_score": 1.0
+      "target": "spec_spec_schemastrict"
     },
     {
       "relation": "contains",
@@ -3044,9 +3044,9 @@
       "source_file": "internal/llm/spec/spec.go",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_llm_spec_spec_go",
-      "target": "spec_spec_schemabody",
-      "confidence_score": 1.0
+      "target": "spec_spec_schemabody"
     },
     {
       "relation": "contains",
@@ -3054,9 +3054,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_fakestore",
-      "confidence_score": 1.0
+      "target": "ingest_fakestore"
     },
     {
       "relation": "contains",
@@ -3064,9 +3064,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_fakenotifier",
-      "confidence_score": 1.0
+      "target": "ingest_fakenotifier"
     },
     {
       "relation": "contains",
@@ -3074,9 +3074,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "contains",
@@ -3084,9 +3084,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_post",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_post"
     },
     {
       "relation": "contains",
@@ -3094,9 +3094,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testingest_newpayloadacceptedandnotifies",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testingest_newpayloadacceptedandnotifies"
     },
     {
       "relation": "contains",
@@ -3104,9 +3104,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testingest_duplicateacceptedbutnotnotified",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testingest_duplicateacceptedbutnotnotified"
     },
     {
       "relation": "contains",
@@ -3114,9 +3114,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testingest_invalidjsonrejected",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testingest_invalidjsonrejected"
     },
     {
       "relation": "contains",
@@ -3124,9 +3124,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testgetentity_canonicalizeskey",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testgetentity_canonicalizeskey"
     },
     {
       "relation": "contains",
@@ -3134,9 +3134,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testgetentity_notfound",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testgetentity_notfound"
     },
     {
       "relation": "contains",
@@ -3144,9 +3144,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testgetevent_invalididisbadrequest",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testgetevent_invalididisbadrequest"
     },
     {
       "relation": "contains",
@@ -3154,9 +3154,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_test_go",
-      "target": "ingest_ingest_test_testgetevent_validbutmissingisnotfound",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_testgetevent_validbutmissingisnotfound"
     },
     {
       "relation": "method",
@@ -3164,9 +3164,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_fakestore",
-      "target": "ingest_fakestore_insertraw",
-      "confidence_score": 1.0
+      "target": "ingest_fakestore_insertraw"
     },
     {
       "relation": "method",
@@ -3174,9 +3174,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_fakestore",
-      "target": "ingest_fakestore_getevent",
-      "confidence_score": 1.0
+      "target": "ingest_fakestore_getevent"
     },
     {
       "relation": "method",
@@ -3184,9 +3184,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_fakestore",
-      "target": "ingest_fakestore_getentity",
-      "confidence_score": 1.0
+      "target": "ingest_fakestore_getentity"
     },
     {
       "relation": "method",
@@ -3194,9 +3194,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_fakestore",
-      "target": "ingest_fakestore_ping",
-      "confidence_score": 1.0
+      "target": "ingest_fakestore_ping"
     },
     {
       "relation": "method",
@@ -3204,9 +3204,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_fakenotifier",
-      "target": "ingest_fakenotifier_notify",
-      "confidence_score": 1.0
+      "target": "ingest_fakenotifier_notify"
     },
     {
       "relation": "calls",
@@ -3215,9 +3215,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testingest_newpayloadacceptedandnotifies",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3226,9 +3226,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testingest_duplicateacceptedbutnotnotified",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3237,9 +3237,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testingest_invalidjsonrejected",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3248,9 +3248,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testgetentity_canonicalizeskey",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3259,9 +3259,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testgetentity_notfound",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3270,9 +3270,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testgetevent_invalididisbadrequest",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3281,9 +3281,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testgetevent_validbutmissingisnotfound",
-      "target": "ingest_ingest_test_newapi",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_newapi"
     },
     {
       "relation": "calls",
@@ -3292,9 +3292,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testingest_newpayloadacceptedandnotifies",
-      "target": "ingest_ingest_test_post",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_post"
     },
     {
       "relation": "calls",
@@ -3303,9 +3303,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testingest_duplicateacceptedbutnotnotified",
-      "target": "ingest_ingest_test_post",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_post"
     },
     {
       "relation": "calls",
@@ -3314,9 +3314,9 @@
       "source_file": "internal/ingest/ingest_test.go",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_test_testingest_invalidjsonrejected",
-      "target": "ingest_ingest_test_post",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_test_post"
     },
     {
       "relation": "contains",
@@ -3324,9 +3324,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_store",
-      "confidence_score": 1.0
+      "target": "ingest_store"
     },
     {
       "relation": "contains",
@@ -3334,9 +3334,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_notifier",
-      "confidence_score": 1.0
+      "target": "ingest_notifier"
     },
     {
       "relation": "contains",
@@ -3344,9 +3344,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_api",
-      "confidence_score": 1.0
+      "target": "ingest_api"
     },
     {
       "relation": "contains",
@@ -3354,9 +3354,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_ingest_new",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_new"
     },
     {
       "relation": "contains",
@@ -3364,9 +3364,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_responserecorder",
-      "confidence_score": 1.0
+      "target": "ingest_responserecorder"
     },
     {
       "relation": "contains",
@@ -3374,9 +3374,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_ingest_writejson",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writejson"
     },
     {
       "relation": "contains",
@@ -3384,9 +3384,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L195",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_ingest_ingest_go",
-      "target": "ingest_ingest_writeerror",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writeerror"
     },
     {
       "relation": "method",
@@ -3394,9 +3394,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api",
-      "target": "ingest_api_routes",
-      "confidence_score": 1.0
+      "target": "ingest_api_routes"
     },
     {
       "relation": "method",
@@ -3404,9 +3404,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api",
-      "target": "ingest_api_withlogging",
-      "confidence_score": 1.0
+      "target": "ingest_api_withlogging"
     },
     {
       "relation": "method",
@@ -3414,9 +3414,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api",
-      "target": "ingest_api_ingest",
-      "confidence_score": 1.0
+      "target": "ingest_api_ingest"
     },
     {
       "relation": "method",
@@ -3424,9 +3424,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api",
-      "target": "ingest_api_getevent",
-      "confidence_score": 1.0
+      "target": "ingest_api_getevent"
     },
     {
       "relation": "method",
@@ -3434,9 +3434,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L166",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api",
-      "target": "ingest_api_getentity",
-      "confidence_score": 1.0
+      "target": "ingest_api_getentity"
     },
     {
       "relation": "method",
@@ -3444,9 +3444,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api",
-      "target": "ingest_api_health",
-      "confidence_score": 1.0
+      "target": "ingest_api_health"
     },
     {
       "relation": "calls",
@@ -3455,9 +3455,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_routes",
-      "target": "ingest_api_withlogging",
-      "confidence_score": 1.0
+      "target": "ingest_api_withlogging"
     },
     {
       "relation": "method",
@@ -3465,9 +3465,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_responserecorder",
-      "target": "ingest_responserecorder_writeheader",
-      "confidence_score": 1.0
+      "target": "ingest_responserecorder_writeheader"
     },
     {
       "relation": "method",
@@ -3475,9 +3475,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_responserecorder",
-      "target": "ingest_responserecorder_write",
-      "confidence_score": 1.0
+      "target": "ingest_responserecorder_write"
     },
     {
       "relation": "calls",
@@ -3486,9 +3486,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L191",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_writejson",
-      "target": "ingest_responserecorder_writeheader",
-      "confidence_score": 1.0
+      "target": "ingest_responserecorder_writeheader"
     },
     {
       "relation": "calls",
@@ -3497,9 +3497,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_ingest",
-      "target": "ingest_ingest_writeerror",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writeerror"
     },
     {
       "relation": "calls",
@@ -3508,9 +3508,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_ingest",
-      "target": "ingest_ingest_writejson",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writejson"
     },
     {
       "relation": "calls",
@@ -3519,9 +3519,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_getevent",
-      "target": "ingest_ingest_writeerror",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writeerror"
     },
     {
       "relation": "calls",
@@ -3530,9 +3530,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L161",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_getevent",
-      "target": "ingest_ingest_writejson",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writejson"
     },
     {
       "relation": "calls",
@@ -3541,9 +3541,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_getentity",
-      "target": "ingest_ingest_writeerror",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writeerror"
     },
     {
       "relation": "calls",
@@ -3552,9 +3552,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_getentity",
-      "target": "ingest_ingest_writejson",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writejson"
     },
     {
       "relation": "calls",
@@ -3574,9 +3574,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L183",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_api_health",
-      "target": "ingest_ingest_writejson",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writejson"
     },
     {
       "relation": "calls",
@@ -3585,9 +3585,9 @@
       "source_file": "internal/ingest/ingest.go",
       "source_location": "L196",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ingest_ingest_writeerror",
-      "target": "ingest_ingest_writejson",
-      "confidence_score": 1.0
+      "target": "ingest_ingest_writejson"
     },
     {
       "relation": "contains",
@@ -3595,9 +3595,9 @@
       "source_file": "internal/processor/processor.go",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_processor_processor_go",
-      "target": "processor_processor",
-      "confidence_score": 1.0
+      "target": "processor_processor"
     },
     {
       "relation": "contains",
@@ -3605,9 +3605,9 @@
       "source_file": "internal/processor/processor.go",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_processor_processor_go",
-      "target": "processor_processor_new",
-      "confidence_score": 1.0
+      "target": "processor_processor_new"
     },
     {
       "relation": "method",
@@ -3615,9 +3615,9 @@
       "source_file": "internal/processor/processor.go",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "processor_processor",
-      "target": "processor_processor_handle",
-      "confidence_score": 1.0
+      "target": "processor_processor_handle"
     },
     {
       "relation": "method",
@@ -3625,9 +3625,9 @@
       "source_file": "internal/processor/processor.go",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "processor_processor",
-      "target": "processor_processor_project",
-      "confidence_score": 1.0
+      "target": "processor_processor_project"
     },
     {
       "relation": "calls",
@@ -3636,9 +3636,9 @@
       "source_file": "internal/processor/processor.go",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "processor_processor_handle",
-      "target": "processor_processor_project",
-      "confidence_score": 1.0
+      "target": "processor_processor_project"
     },
     {
       "relation": "calls",
@@ -3668,9 +3668,9 @@
       "source_file": "internal/samples/samples.go",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_samples_samples_go",
-      "target": "samples_samples_read",
-      "confidence_score": 1.0
+      "target": "samples_samples_read"
     },
     {
       "relation": "contains",
@@ -3678,9 +3678,9 @@
       "source_file": "internal/samples/samples.go",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_samples_samples_go",
-      "target": "samples_samples_names",
-      "confidence_score": 1.0
+      "target": "samples_samples_names"
     },
     {
       "relation": "contains",
@@ -3688,9 +3688,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_go",
-      "target": "normalize_normalizer",
-      "confidence_score": 1.0
+      "target": "normalize_normalizer"
     },
     {
       "relation": "contains",
@@ -3698,9 +3698,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_go",
-      "target": "normalize_normalize_new",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_new"
     },
     {
       "relation": "contains",
@@ -3708,9 +3708,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_go",
-      "target": "normalize_normalize_canonicalkey",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_canonicalkey"
     },
     {
       "relation": "contains",
@@ -3718,9 +3718,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_go",
-      "target": "normalize_normalize_sanitizemoney",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_sanitizemoney"
     },
     {
       "relation": "contains",
@@ -3728,9 +3728,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_go",
-      "target": "normalize_normalize_isalpha",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_isalpha"
     },
     {
       "relation": "contains",
@@ -3738,9 +3738,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_go",
-      "target": "normalize_normalize_parseeventtime",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_parseeventtime"
     },
     {
       "relation": "method",
@@ -3748,9 +3748,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "normalize_normalizer",
-      "target": "normalize_normalizer_apply",
-      "confidence_score": 1.0
+      "target": "normalize_normalizer_apply"
     },
     {
       "relation": "calls",
@@ -3759,9 +3759,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "normalize_normalizer_apply",
-      "target": "normalize_normalize_parseeventtime",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_parseeventtime"
     },
     {
       "relation": "calls",
@@ -3770,9 +3770,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "normalize_normalizer_apply",
-      "target": "normalize_normalize_canonicalkey",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_canonicalkey"
     },
     {
       "relation": "calls",
@@ -3781,9 +3781,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "normalize_normalizer_apply",
-      "target": "normalize_normalize_sanitizemoney",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_sanitizemoney"
     },
     {
       "relation": "calls",
@@ -3825,9 +3825,9 @@
       "source_file": "internal/normalize/normalize.go",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "normalize_normalize_sanitizemoney",
-      "target": "normalize_normalize_isalpha",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_isalpha"
     },
     {
       "relation": "contains",
@@ -3835,9 +3835,9 @@
       "source_file": "internal/normalize/normalize_test.go",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_test_go",
-      "target": "normalize_normalize_test_testapply_shipmentcanonicalizeskeyandtime",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_test_testapply_shipmentcanonicalizeskeyandtime"
     },
     {
       "relation": "contains",
@@ -3845,9 +3845,9 @@
       "source_file": "internal/normalize/normalize_test.go",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_test_go",
-      "target": "normalize_normalize_test_testapply_lowconfidencedowngradestounclassified",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_test_testapply_lowconfidencedowngradestounclassified"
     },
     {
       "relation": "contains",
@@ -3855,9 +3855,9 @@
       "source_file": "internal/normalize/normalize_test.go",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_test_go",
-      "target": "normalize_normalize_test_testapply_stateclassmismatchiserror",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_test_testapply_stateclassmismatchiserror"
     },
     {
       "relation": "contains",
@@ -3865,9 +3865,9 @@
       "source_file": "internal/normalize/normalize_test.go",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_test_go",
-      "target": "normalize_normalize_test_testapply_missingentitykeyiserror",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_test_testapply_missingentitykeyiserror"
     },
     {
       "relation": "contains",
@@ -3875,9 +3875,9 @@
       "source_file": "internal/normalize/normalize_test.go",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_test_go",
-      "target": "normalize_normalize_test_testapply_invoicemoney",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_test_testapply_invoicemoney"
     },
     {
       "relation": "contains",
@@ -3885,9 +3885,9 @@
       "source_file": "internal/normalize/normalize_test.go",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_normalize_normalize_test_go",
-      "target": "normalize_normalize_test_testapply_unparseabletimeisnilnoterror",
-      "confidence_score": 1.0
+      "target": "normalize_normalize_test_testapply_unparseabletimeisnilnoterror"
     },
     {
       "relation": "contains",
@@ -3895,9 +3895,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_classification",
-      "confidence_score": 1.0
+      "target": "model_classification"
     },
     {
       "relation": "contains",
@@ -3905,9 +3905,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_model_shipmentrank",
-      "confidence_score": 1.0
+      "target": "model_model_shipmentrank"
     },
     {
       "relation": "contains",
@@ -3915,9 +3915,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_model_invoicetransitionallowed",
-      "confidence_score": 1.0
+      "target": "model_model_invoicetransitionallowed"
     },
     {
       "relation": "contains",
@@ -3925,9 +3925,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_model_isshipmentstate",
-      "confidence_score": 1.0
+      "target": "model_model_isshipmentstate"
     },
     {
       "relation": "contains",
@@ -3935,9 +3935,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_model_isinvoicestate",
-      "confidence_score": 1.0
+      "target": "model_model_isinvoicestate"
     },
     {
       "relation": "contains",
@@ -3945,9 +3945,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_rawstatus",
-      "confidence_score": 1.0
+      "target": "model_rawstatus"
     },
     {
       "relation": "contains",
@@ -3955,9 +3955,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_rawevent",
-      "confidence_score": 1.0
+      "target": "model_rawevent"
     },
     {
       "relation": "contains",
@@ -3965,9 +3965,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_normalized",
-      "confidence_score": 1.0
+      "target": "model_normalized"
     },
     {
       "relation": "contains",
@@ -3975,9 +3975,9 @@
       "source_file": "internal/model/model.go",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_model_model_go",
-      "target": "model_entity",
-      "confidence_score": 1.0
+      "target": "model_entity"
     },
     {
       "relation": "calls",
@@ -4018,9 +4018,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_queue_go",
-      "target": "queue_job",
-      "confidence_score": 1.0
+      "target": "queue_job"
     },
     {
       "relation": "contains",
@@ -4028,9 +4028,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_queue_go",
-      "target": "queue_queue",
-      "confidence_score": 1.0
+      "target": "queue_queue"
     },
     {
       "relation": "contains",
@@ -4038,9 +4038,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_queue_go",
-      "target": "queue_permanent",
-      "confidence_score": 1.0
+      "target": "queue_permanent"
     },
     {
       "relation": "contains",
@@ -4048,9 +4048,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_queue_go",
-      "target": "queue_queue_permanentf",
-      "confidence_score": 1.0
+      "target": "queue_queue_permanentf"
     },
     {
       "relation": "contains",
@@ -4058,9 +4058,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_queue_go",
-      "target": "queue_queue_ispermanent",
-      "confidence_score": 1.0
+      "target": "queue_queue_ispermanent"
     },
     {
       "relation": "method",
@@ -4068,9 +4068,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_permanent",
-      "target": "queue_permanent_error",
-      "confidence_score": 1.0
+      "target": "queue_permanent_error"
     },
     {
       "relation": "method",
@@ -4078,9 +4078,9 @@
       "source_file": "internal/queue/queue.go",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_permanent",
-      "target": "queue_permanent_unwrap",
-      "confidence_score": 1.0
+      "target": "queue_permanent_unwrap"
     },
     {
       "relation": "calls",
@@ -4110,9 +4110,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_postgres_go",
-      "target": "queue_config",
-      "confidence_score": 1.0
+      "target": "queue_config"
     },
     {
       "relation": "contains",
@@ -4120,9 +4120,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_postgres_go",
-      "target": "queue_postgres",
-      "confidence_score": 1.0
+      "target": "queue_postgres"
     },
     {
       "relation": "contains",
@@ -4130,9 +4130,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_postgres_go",
-      "target": "queue_postgres_newpostgres",
-      "confidence_score": 1.0
+      "target": "queue_postgres_newpostgres"
     },
     {
       "relation": "method",
@@ -4140,9 +4140,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres",
-      "target": "queue_postgres_notify",
-      "confidence_score": 1.0
+      "target": "queue_postgres_notify"
     },
     {
       "relation": "method",
@@ -4150,9 +4150,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres",
-      "target": "queue_postgres_claim",
-      "confidence_score": 1.0
+      "target": "queue_postgres_claim"
     },
     {
       "relation": "method",
@@ -4160,9 +4160,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres",
-      "target": "queue_postgres_ack",
-      "confidence_score": 1.0
+      "target": "queue_postgres_ack"
     },
     {
       "relation": "method",
@@ -4170,9 +4170,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres",
-      "target": "queue_postgres_retry",
-      "confidence_score": 1.0
+      "target": "queue_postgres_retry"
     },
     {
       "relation": "method",
@@ -4180,9 +4180,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres",
-      "target": "queue_postgres_fail",
-      "confidence_score": 1.0
+      "target": "queue_postgres_fail"
     },
     {
       "relation": "method",
@@ -4190,9 +4190,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres",
-      "target": "queue_postgres_backoff",
-      "confidence_score": 1.0
+      "target": "queue_postgres_backoff"
     },
     {
       "relation": "calls",
@@ -4201,9 +4201,9 @@
       "source_file": "internal/queue/postgres.go",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "queue_postgres_retry",
-      "target": "queue_postgres_backoff",
-      "confidence_score": 1.0
+      "target": "queue_postgres_backoff"
     },
     {
       "relation": "contains",
@@ -4211,9 +4211,9 @@
       "source_file": "internal/queue/postgres_test.go",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_queue_postgres_test_go",
-      "target": "queue_postgres_test_testbackoff_boundedandcapped",
-      "confidence_score": 1.0
+      "target": "queue_postgres_test_testbackoff_boundedandcapped"
     },
     {
       "relation": "contains",
@@ -4221,9 +4221,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_worker_worker_go",
-      "target": "worker_handler",
-      "confidence_score": 1.0
+      "target": "worker_handler"
     },
     {
       "relation": "contains",
@@ -4231,9 +4231,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_worker_worker_go",
-      "target": "worker_pool",
-      "confidence_score": 1.0
+      "target": "worker_pool"
     },
     {
       "relation": "contains",
@@ -4241,9 +4241,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_worker_worker_go",
-      "target": "worker_worker_newpool",
-      "confidence_score": 1.0
+      "target": "worker_worker_newpool"
     },
     {
       "relation": "method",
@@ -4251,9 +4251,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_pool",
-      "target": "worker_pool_run",
-      "confidence_score": 1.0
+      "target": "worker_pool_run"
     },
     {
       "relation": "method",
@@ -4261,9 +4261,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_pool",
-      "target": "worker_pool_worker",
-      "confidence_score": 1.0
+      "target": "worker_pool_worker"
     },
     {
       "relation": "method",
@@ -4271,9 +4271,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_pool",
-      "target": "worker_pool_dispatch",
-      "confidence_score": 1.0
+      "target": "worker_pool_dispatch"
     },
     {
       "relation": "calls",
@@ -4293,9 +4293,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_pool_run",
-      "target": "worker_pool_worker",
-      "confidence_score": 1.0
+      "target": "worker_pool_worker"
     },
     {
       "relation": "calls",
@@ -4304,9 +4304,9 @@
       "source_file": "internal/worker/worker.go",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_pool_worker",
-      "target": "worker_pool_dispatch",
-      "confidence_score": 1.0
+      "target": "worker_pool_dispatch"
     },
     {
       "relation": "contains",
@@ -4314,9 +4314,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_worker_worker_test_go",
-      "target": "worker_fakequeue",
-      "confidence_score": 1.0
+      "target": "worker_fakequeue"
     },
     {
       "relation": "contains",
@@ -4324,9 +4324,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_worker_worker_test_go",
-      "target": "worker_fakehandler",
-      "confidence_score": 1.0
+      "target": "worker_fakehandler"
     },
     {
       "relation": "contains",
@@ -4334,9 +4334,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_worker_worker_test_go",
-      "target": "worker_worker_test_testdispatch_routesoutcome",
-      "confidence_score": 1.0
+      "target": "worker_worker_test_testdispatch_routesoutcome"
     },
     {
       "relation": "method",
@@ -4344,9 +4344,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_fakequeue",
-      "target": "worker_fakequeue_claim",
-      "confidence_score": 1.0
+      "target": "worker_fakequeue_claim"
     },
     {
       "relation": "method",
@@ -4354,9 +4354,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_fakequeue",
-      "target": "worker_fakequeue_ack",
-      "confidence_score": 1.0
+      "target": "worker_fakequeue_ack"
     },
     {
       "relation": "method",
@@ -4364,9 +4364,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_fakequeue",
-      "target": "worker_fakequeue_retry",
-      "confidence_score": 1.0
+      "target": "worker_fakequeue_retry"
     },
     {
       "relation": "method",
@@ -4374,9 +4374,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_fakequeue",
-      "target": "worker_fakequeue_fail",
-      "confidence_score": 1.0
+      "target": "worker_fakequeue_fail"
     },
     {
       "relation": "method",
@@ -4384,9 +4384,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_fakequeue",
-      "target": "worker_fakequeue_notify",
-      "confidence_score": 1.0
+      "target": "worker_fakequeue_notify"
     },
     {
       "relation": "method",
@@ -4394,9 +4394,9 @@
       "source_file": "internal/worker/worker_test.go",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_fakehandler",
-      "target": "worker_fakehandler_handle",
-      "confidence_score": 1.0
+      "target": "worker_fakehandler_handle"
     },
     {
       "relation": "contains",
@@ -4404,9 +4404,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_raw_go",
-      "target": "store_eventview",
-      "confidence_score": 1.0
+      "target": "store_eventview"
     },
     {
       "relation": "method",
@@ -4414,9 +4414,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_insertraw",
-      "confidence_score": 1.0
+      "target": "store_store_insertraw"
     },
     {
       "relation": "method",
@@ -4424,9 +4424,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_claim",
-      "confidence_score": 1.0
+      "target": "store_store_claim"
     },
     {
       "relation": "method",
@@ -4434,9 +4434,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_markprocessed",
-      "confidence_score": 1.0
+      "target": "store_store_markprocessed"
     },
     {
       "relation": "method",
@@ -4444,9 +4444,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_retryorfail",
-      "confidence_score": 1.0
+      "target": "store_store_retryorfail"
     },
     {
       "relation": "method",
@@ -4454,9 +4454,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_fail",
-      "confidence_score": 1.0
+      "target": "store_store_fail"
     },
     {
       "relation": "method",
@@ -4464,9 +4464,9 @@
       "source_file": "internal/store/raw.go",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_getevent",
-      "confidence_score": 1.0
+      "target": "store_store_getevent"
     },
     {
       "relation": "contains",
@@ -4474,9 +4474,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_store_go",
-      "target": "store_store",
-      "confidence_score": 1.0
+      "target": "store_store"
     },
     {
       "relation": "method",
@@ -4484,9 +4484,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_close",
-      "confidence_score": 1.0
+      "target": "store_store_close"
     },
     {
       "relation": "method",
@@ -4494,9 +4494,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_ping",
-      "confidence_score": 1.0
+      "target": "store_store_ping"
     },
     {
       "relation": "method",
@@ -4504,9 +4504,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_migrate",
-      "confidence_score": 1.0
+      "target": "store_store_migrate"
     },
     {
       "relation": "method",
@@ -4514,9 +4514,9 @@
       "source_file": "internal/store/entity.go",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_applyshipment",
-      "confidence_score": 1.0
+      "target": "store_store_applyshipment"
     },
     {
       "relation": "method",
@@ -4524,9 +4524,9 @@
       "source_file": "internal/store/entity.go",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_applyinvoice",
-      "confidence_score": 1.0
+      "target": "store_store_applyinvoice"
     },
     {
       "relation": "method",
@@ -4534,9 +4534,9 @@
       "source_file": "internal/store/entity.go",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_getentity",
-      "confidence_score": 1.0
+      "target": "store_store_getentity"
     },
     {
       "relation": "method",
@@ -4544,9 +4544,9 @@
       "source_file": "internal/store/normalized.go",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store",
-      "target": "store_store_insertnormalized",
-      "confidence_score": 1.0
+      "target": "store_store_insertnormalized"
     },
     {
       "relation": "contains",
@@ -4554,9 +4554,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_store_go",
-      "target": "store_store_new",
-      "confidence_score": 1.0
+      "target": "store_store_new"
     },
     {
       "relation": "calls",
@@ -4565,9 +4565,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store_new",
-      "target": "store_store_ping",
-      "confidence_score": 1.0
+      "target": "store_store_ping"
     },
     {
       "relation": "calls",
@@ -4576,9 +4576,9 @@
       "source_file": "internal/store/store.go",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_store_new",
-      "target": "store_store_close",
-      "confidence_score": 1.0
+      "target": "store_store_close"
     },
     {
       "relation": "contains",
@@ -4586,9 +4586,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_teststore",
-      "confidence_score": 1.0
+      "target": "store_integration_test_teststore"
     },
     {
       "relation": "contains",
@@ -4596,9 +4596,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_uniq",
-      "confidence_score": 1.0
+      "target": "store_integration_test_uniq"
     },
     {
       "relation": "contains",
@@ -4606,9 +4606,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_testinsertraw_idempotent",
-      "confidence_score": 1.0
+      "target": "store_integration_test_testinsertraw_idempotent"
     },
     {
       "relation": "contains",
@@ -4616,9 +4616,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_testapplyshipment_noregressionthenforward",
-      "confidence_score": 1.0
+      "target": "store_integration_test_testapplyshipment_noregressionthenforward"
     },
     {
       "relation": "contains",
@@ -4626,9 +4626,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_testapplyshipment_concurrentconverges",
-      "confidence_score": 1.0
+      "target": "store_integration_test_testapplyshipment_concurrentconverges"
     },
     {
       "relation": "contains",
@@ -4636,9 +4636,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_testapplyinvoice_transitiontable",
-      "confidence_score": 1.0
+      "target": "store_integration_test_testapplyinvoice_transitiontable"
     },
     {
       "relation": "contains",
@@ -4646,9 +4646,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_testinsertnormalized_idempotentonrawevent",
-      "confidence_score": 1.0
+      "target": "store_integration_test_testinsertnormalized_idempotentonrawevent"
     },
     {
       "relation": "contains",
@@ -4656,9 +4656,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_mustapplyshipment",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustapplyshipment"
     },
     {
       "relation": "contains",
@@ -4666,9 +4666,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_mustapplyinvoice",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustapplyinvoice"
     },
     {
       "relation": "contains",
@@ -4676,9 +4676,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_mustentity",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustentity"
     },
     {
       "relation": "contains",
@@ -4686,9 +4686,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "internal_store_integration_test_go",
-      "target": "store_integration_test_assertinvoicestate",
-      "confidence_score": 1.0
+      "target": "store_integration_test_assertinvoicestate"
     },
     {
       "relation": "calls",
@@ -4697,9 +4697,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testinsertraw_idempotent",
-      "target": "store_integration_test_teststore",
-      "confidence_score": 1.0
+      "target": "store_integration_test_teststore"
     },
     {
       "relation": "calls",
@@ -4708,9 +4708,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_noregressionthenforward",
-      "target": "store_integration_test_teststore",
-      "confidence_score": 1.0
+      "target": "store_integration_test_teststore"
     },
     {
       "relation": "calls",
@@ -4719,9 +4719,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_concurrentconverges",
-      "target": "store_integration_test_teststore",
-      "confidence_score": 1.0
+      "target": "store_integration_test_teststore"
     },
     {
       "relation": "calls",
@@ -4730,9 +4730,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyinvoice_transitiontable",
-      "target": "store_integration_test_teststore",
-      "confidence_score": 1.0
+      "target": "store_integration_test_teststore"
     },
     {
       "relation": "calls",
@@ -4741,9 +4741,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testinsertnormalized_idempotentonrawevent",
-      "target": "store_integration_test_teststore",
-      "confidence_score": 1.0
+      "target": "store_integration_test_teststore"
     },
     {
       "relation": "calls",
@@ -4752,9 +4752,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testinsertraw_idempotent",
-      "target": "store_integration_test_uniq",
-      "confidence_score": 1.0
+      "target": "store_integration_test_uniq"
     },
     {
       "relation": "calls",
@@ -4763,9 +4763,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_noregressionthenforward",
-      "target": "store_integration_test_uniq",
-      "confidence_score": 1.0
+      "target": "store_integration_test_uniq"
     },
     {
       "relation": "calls",
@@ -4774,9 +4774,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_concurrentconverges",
-      "target": "store_integration_test_uniq",
-      "confidence_score": 1.0
+      "target": "store_integration_test_uniq"
     },
     {
       "relation": "calls",
@@ -4785,9 +4785,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyinvoice_transitiontable",
-      "target": "store_integration_test_uniq",
-      "confidence_score": 1.0
+      "target": "store_integration_test_uniq"
     },
     {
       "relation": "calls",
@@ -4796,9 +4796,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testinsertnormalized_idempotentonrawevent",
-      "target": "store_integration_test_uniq",
-      "confidence_score": 1.0
+      "target": "store_integration_test_uniq"
     },
     {
       "relation": "calls",
@@ -4807,9 +4807,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_noregressionthenforward",
-      "target": "store_integration_test_mustapplyshipment",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustapplyshipment"
     },
     {
       "relation": "calls",
@@ -4818,9 +4818,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_noregressionthenforward",
-      "target": "store_integration_test_mustentity",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustentity"
     },
     {
       "relation": "calls",
@@ -4829,9 +4829,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyshipment_concurrentconverges",
-      "target": "store_integration_test_mustentity",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustentity"
     },
     {
       "relation": "calls",
@@ -4840,9 +4840,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyinvoice_transitiontable",
-      "target": "store_integration_test_mustapplyinvoice",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustapplyinvoice"
     },
     {
       "relation": "calls",
@@ -4851,9 +4851,9 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_testapplyinvoice_transitiontable",
-      "target": "store_integration_test_assertinvoicestate",
-      "confidence_score": 1.0
+      "target": "store_integration_test_assertinvoicestate"
     },
     {
       "relation": "calls",
@@ -4862,11 +4862,11 @@
       "source_file": "internal/store/integration_test.go",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "store_integration_test_assertinvoicestate",
-      "target": "store_integration_test_mustentity",
-      "confidence_score": 1.0
+      "target": "store_integration_test_mustentity"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e545b0c0164f6f6f6145a0c9710baa6dafc909c0"
+  "built_at_commit": "09f5cb37d1f65000e66280b3a901bc20a49ec093"
 }
