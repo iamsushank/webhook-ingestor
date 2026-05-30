@@ -1,0 +1,138 @@
+{
+  "/Users/sushank/webhook-ingestor/config.go": {
+    "mtime": 1780154323.9057,
+    "hash": "79182173003bd313a58f2b2b34045922"
+  },
+  "/Users/sushank/webhook-ingestor/init.go": {
+    "mtime": 1780155462.3263361,
+    "hash": "2cbc817a633177c8bf167e4b6d910f5c"
+  },
+  "/Users/sushank/webhook-ingestor/main.go": {
+    "mtime": 1780154416.101714,
+    "hash": "061f4894fcfd627b607873a10605e45d"
+  },
+  "/Users/sushank/webhook-ingestor/migrations/embed.go": {
+    "mtime": 1780131433.0270011,
+    "hash": "36bd63dce54c6370955685e5e6b4a145"
+  },
+  "/Users/sushank/webhook-ingestor/migrations/0001_init.sql": {
+    "mtime": 1780131200.915375,
+    "hash": "549ebdc7fb550b8cf1b6051a257b7d33"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/llm.go": {
+    "mtime": 1780140182.9277663,
+    "hash": "24710808f8298d7696ef82be6d0df474"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/openai_test.go": {
+    "mtime": 1780153094.226041,
+    "hash": "200573a2abaa190812a46eac14dc3c3e"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/ollama_test.go": {
+    "mtime": 1780146580.5670235,
+    "hash": "af8b263f40e2166ecb5e2adec27efd1b"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/openai.go": {
+    "mtime": 1780153080.452485,
+    "hash": "9d7f94af9d09b82f9743cb920f099cd5"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/mock.go": {
+    "mtime": 1780155457.2939656,
+    "hash": "39cde8a37f210c1d113c11940b2e090a"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/mock_test.go": {
+    "mtime": 1780148081.7560294,
+    "hash": "35f9313b7b4b025ab14c9ac5b8903b72"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/ollama.go": {
+    "mtime": 1780148867.4575946,
+    "hash": "345d78941e510f5dd5dc1cf1944eb91b"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/spec/spec.go": {
+    "mtime": 1780155468.3170877,
+    "hash": "b33eb32ac33f39239569d0b40d2b3dbd"
+  },
+  "/Users/sushank/webhook-ingestor/internal/ingest/ingest_test.go": {
+    "mtime": 1780153379.6888645,
+    "hash": "205a498859d3d5f0d36742138222cc5e"
+  },
+  "/Users/sushank/webhook-ingestor/internal/ingest/ingest.go": {
+    "mtime": 1780155306.6950753,
+    "hash": "3fc17403a0f1ec0375109f438c953983"
+  },
+  "/Users/sushank/webhook-ingestor/internal/processor/processor.go": {
+    "mtime": 1780155447.2390072,
+    "hash": "4a74b54d54a35085349810274bd674b9"
+  },
+  "/Users/sushank/webhook-ingestor/internal/samples/samples.go": {
+    "mtime": 1780148040.2715461,
+    "hash": "090d3cf73312cdeff6b935fd3d613fbf"
+  },
+  "/Users/sushank/webhook-ingestor/internal/normalize/normalize.go": {
+    "mtime": 1780155452.2703757,
+    "hash": "4bbc71296eeeba7704b49e5463db52ed"
+  },
+  "/Users/sushank/webhook-ingestor/internal/normalize/normalize_test.go": {
+    "mtime": 1780138723.1953313,
+    "hash": "887b76d0534bb52b66df2e24bbb6800a"
+  },
+  "/Users/sushank/webhook-ingestor/internal/model/model.go": {
+    "mtime": 1780152891.660851,
+    "hash": "bd836047617ad443cb008cc4f1c5ed58"
+  },
+  "/Users/sushank/webhook-ingestor/internal/queue/queue.go": {
+    "mtime": 1780140072.6928291,
+    "hash": "79ab42c154c3a1b8becc66f57ed69fdd"
+  },
+  "/Users/sushank/webhook-ingestor/internal/queue/postgres.go": {
+    "mtime": 1780155421.3520753,
+    "hash": "c7e07b06c1dec009d1b6ef1b80d268c9"
+  },
+  "/Users/sushank/webhook-ingestor/internal/queue/postgres_test.go": {
+    "mtime": 1780140160.6544533,
+    "hash": "f753252e92b722fc2447453a3aefc716"
+  },
+  "/Users/sushank/webhook-ingestor/internal/worker/worker.go": {
+    "mtime": 1780155442.2263598,
+    "hash": "d36439afcc53ac94d2aa37037b4bc925"
+  },
+  "/Users/sushank/webhook-ingestor/internal/worker/worker_test.go": {
+    "mtime": 1780140182.928073,
+    "hash": "3522914fb5d8c2bdd368df77691129d8"
+  },
+  "/Users/sushank/webhook-ingestor/internal/store/raw.go": {
+    "mtime": 1780155376.5692034,
+    "hash": "ada8da9bb5c3bb822199fa92dbe2bd9c"
+  },
+  "/Users/sushank/webhook-ingestor/internal/store/store.go": {
+    "mtime": 1780155338.3201108,
+    "hash": "d5bea0052c584c4321f19aee91248b6f"
+  },
+  "/Users/sushank/webhook-ingestor/internal/store/entity.go": {
+    "mtime": 1780131478.2668765,
+    "hash": "98d7ba51011e4aa25de19e9b60b6c443"
+  },
+  "/Users/sushank/webhook-ingestor/internal/store/normalized.go": {
+    "mtime": 1780131465.4912171,
+    "hash": "7e2f9d40b6d35e5f10222fe4bacaa67a"
+  },
+  "/Users/sushank/webhook-ingestor/internal/store/integration_test.go": {
+    "mtime": 1780152906.8460968,
+    "hash": "535dab0d963a745a377aa67ee3463644"
+  },
+  "/Users/sushank/webhook-ingestor/README.md": {
+    "mtime": 1780156136.1205215,
+    "hash": "8abc0eaa50e27a17315d61e49fa6d1a9"
+  },
+  "/Users/sushank/webhook-ingestor/assignment.txt": {
+    "mtime": 1780118779.7406769,
+    "hash": "243c060a85ed86d9361cefbb0960687b"
+  },
+  "/Users/sushank/webhook-ingestor/docker-compose.yml": {
+    "mtime": 1780154945.666347,
+    "hash": "976e30c136d4063bafc7f7c40077d6a5"
+  },
+  "/Users/sushank/webhook-ingestor/internal/llm/spec/system_prompt.txt": {
+    "mtime": 1780147847.3352783,
+    "hash": "2bc27505dd1c66f276f61c6b0f387619"
+  }
+}

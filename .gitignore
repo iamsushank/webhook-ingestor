@@ -2,3 +2,16 @@
 /webhook-ingestor
 .env
 *.local
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.DS_Store
+*.test
+*.out
+.idea/
+*.iml
+build
+data
+vendor
