@@ -1,0 +1,48 @@
+{
+  "name": "webhook_normalization",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "classification",
+      "entity_key",
+      "canonical_state",
+      "event_time",
+      "amount_minor",
+      "currency",
+      "vendor_state_text",
+      "confidence"
+    ],
+    "properties": {
+      "classification": {
+        "type": "string",
+        "enum": ["SHIPMENT", "INVOICE", "UNCLASSIFIED"]
+      },
+      "entity_key": {
+        "type": ["string", "null"]
+      },
+      "canonical_state": {
+        "type": ["string", "null"],
+        "enum": ["PICKED_UP", "IN_TRANSIT", "OUT_FOR_DELIVERY", "DELIVERED", "ISSUED", "PAID", "VOIDED", "REFUNDED", null]
+      },
+      "event_time": {
+        "type": ["string", "null"]
+      },
+      "amount_minor": {
+        "type": ["integer", "null"]
+      },
+      "currency": {
+        "type": ["string", "null"]
+      },
+      "vendor_state_text": {
+        "type": ["string", "null"]
+      },
+      "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    }
+  },
+  "strict": true
+}

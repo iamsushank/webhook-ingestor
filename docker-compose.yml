@@ -1,0 +1,61 @@
+# Shared env for both app roles. The same image runs as either role via MODE.
+x-app-env: &app-env
+  DATABASE_URL: postgres://postgres:postgres@db:5432/webhooks?sslmode=disable
+  # Generic LLM config: empty LLM_PROVIDER + empty LLM_API_KEY → deterministic mock.
+  LLM_PROVIDER: ${LLM_PROVIDER:-}
+  LLM_MODEL: ${LLM_MODEL:-}
+  LLM_API_KEY: ${LLM_API_KEY:-}
+  # Blank = provider default; for Ollama in Docker use http://host.docker.internal:11434
+  LLM_BASE_URL: ${LLM_BASE_URL:-}
+  CONFIDENCE_THRESHOLD: ${CONFIDENCE_THRESHOLD:-0.6}
+  WORKER_CONCURRENCY: ${WORKER_CONCURRENCY:-4}
+  MAX_ATTEMPTS: ${MAX_ATTEMPTS:-5}
+  LEASE_TIMEOUT: ${LEASE_TIMEOUT:-30s}
+  BASE_BACKOFF: ${BASE_BACKOFF:-2s}
+  MAX_BACKOFF: ${MAX_BACKOFF:-5m}
+  POLL_INTERVAL: ${POLL_INTERVAL:-1s}
+  LOG_LEVEL: ${LOG_LEVEL:-info}
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: webhooks
+    ports:
+      - "5643:5432" # host access for tools / integration tests (5643 avoids a local Postgres clash)
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d webhooks"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  # Fast path: HTTP ingest only. Accepts webhooks, returns 202, enqueues to the DB.
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      <<: *app-env
+      MODE: server
+      PORT: ${PORT:-8080}
+    ports:
+      - "8080:8080"
+
+  # Slow path: queue consumer only. Claims rows from the DB and normalizes them.
+  # Scale horizontally with: docker compose up -d --scale worker=3
+  worker:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      <<: *app-env
+      MODE: worker
+
+volumes:
+  pgdata:

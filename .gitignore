@@ -1,0 +1,4 @@
+/bin/
+/webhook-ingestor
+.env
+*.local
