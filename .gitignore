@@ -16,3 +16,6 @@ build
 data
 vendor
 graphify-out
+.idea/
+.DS_Store
+graphify-out/
